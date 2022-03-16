@@ -233,6 +233,7 @@ class WindowsOSBuilder(Builder):
             "http://gallery.technet.microsoft.com/scriptcenter/"
             "2d191bcd-3308-4edd-9de2-88dff796b0bc/file/41459/43/"
             "PSWindowsUpdate.zip")
+        download_path = ("https://psg-prod-eastus.azureedge.net/packages/pswindowsupdate.2.2.0.2.nupkg")
         utils.subp([
             'wget',
             '-O', output_path,
